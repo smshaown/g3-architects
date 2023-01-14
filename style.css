@@ -28,7 +28,6 @@ body{
 .header{
     background-color:  rgba(255, 144, 14, 0.1);
 }
-
 /* ------------------
     Nav section start  
  --------------------*/
@@ -90,7 +89,6 @@ ul li a{
     margin-bottom: 30px;
 }
 
-
 /* -----------------------------
 Our Features team section start
 -------------------------------- */
@@ -108,8 +106,6 @@ Our Features team section start
     gap: 15px;
 }
 .our-features-img img {
-    /* max-width: 300px;
-    height: 300px; */
     object-fit: cover;
 }
 .our-features-info h1{
@@ -314,7 +310,6 @@ Project success box start
     font-size: 35px;
     font-weight: 700;    
 }
-
 .card{
     width: 300px;
     height: 350px;
