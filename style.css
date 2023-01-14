@@ -14,6 +14,15 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+}
 
 /* Header */
 .header{
@@ -27,7 +36,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px; 
+    padding: 50px 0px;
+    margin-bottom: 50px;
 }
 nav h1 {
     font-weight: 700;
@@ -46,4 +56,36 @@ ul li a{
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+
+/*------------------
+ Banner section start
+ ---------------------*/
+.banners{
+    max-width: 865px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.banners h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+.banners p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 15px 0;
+}
+.banner-img img{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
