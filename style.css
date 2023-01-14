@@ -260,3 +260,52 @@ Project success box start
 .project-box:hover{
     transform: scale(0.5);
 }
+
+/*-------------------
+ Our sponsors start 
+ -------------------*/
+ .our-sponsors-area{
+    width: 542px;
+    height: 129px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .our-sponsors-area h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+ }
+ .our-sponsors-area p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #727272;
+    margin: 15px 0px;
+    line-height: 25px;
+ }
+ 
+ /* -----------------
+ sponsors logo start
+ --------------------*/
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #ddd;
+}
+
+.footer{
+    margin: 50px 0px;
+    padding: 25px 0px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
